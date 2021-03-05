@@ -1,0 +1,37 @@
+// ROUTES SUB URLS
+
+// LOGIN
+const LOGIN_BASE_SUB = '/';
+
+// SIGNUP
+const SIGNUP_BASE_SUB = '/';
+
+// TOKEN MANAGEMENT
+const TOKEN_MANAGEMEN_BASE_SUBT = '/refresh'; // manage tokens
+
+// VERIFICATION
+const VERIFICATION_BASE_SUB = '/';
+const VERIFICATION_CALL_BASE_SUB = '/call'; // verification
+const VERIFICATION_SMS_BASE_SUB = '/sms'; // verification
+const VERIFICATION_CODE_BASE_SUB = '/code'; // verification
+
+// RESET PASSWORD
+
+const RESSET_PASSWORD_BASE_SUB = '/';
+
+// PROFILE
+const PROFILE = '/';
+const GET_PROFILE = '/:uid';
+
+export default {
+  LOGIN_BASE_SUB,
+  SIGNUP_BASE_SUB,
+  TOKEN_MANAGEMEN_BASE_SUBT,
+  VERIFICATION_BASE_SUB,
+  VERIFICATION_CALL_BASE_SUB,
+  VERIFICATION_CODE_BASE_SUB,
+  VERIFICATION_SMS_BASE_SUB,
+  RESSET_PASSWORD_BASE_SUB,
+  PROFILE,
+  GET_PROFILE,
+};

@@ -1,0 +1,7 @@
+logfile
+
+node_modules/
+
+## generated output production
+api-doc
+dist 
